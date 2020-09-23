@@ -1,0 +1,92 @@
+/* Master Styles */
+body {
+	font-family: "Lato", sans-serif;
+	margin: 0px;
+	color: #464444;
+	text-align: center;
+}
+
+/* Button Style */
+
+#swapAll {
+	font-family: "Lato", sans-serif;
+	background-color: #00B9B8;
+    border-radius: 28px;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding: 16px 31px;
+    margin-bottom:20px;
+    font-size: 1em;
+}
+
+/* Color Block Styles */
+
+.color-items-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.color-item-wrapper {
+	position: relative;
+}
+
+.color-background {
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/* Individual Color Blocks */
+
+#orange {
+	background: orange;
+}
+
+#red {
+	background: #E3242B;
+}
+
+#yellow {
+	background: #FFD300;
+}
+
+#green {
+	background: #74B72E;
+}
+
+#teal {
+	background: #00B9B8;
+}
+
+#blue {
+	background: #3767FF;
+}
+
+#indigo {
+	background: #2F0068;
+}
+
+#violet {
+	background: #7F00FF;
+}
+
+#pink {
+	background: #bc6ca7;
+}
+
+#bright_orange {
+	background: #FD6A02;
+}
+
+#yellow_green {
+	background: #a2c242;
+}
+
+#gold {
+	background: #d9a01a;
+}
